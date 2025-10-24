@@ -109,7 +109,7 @@ I build AI systems end-to-end—training and post-training models, shipping reli
 1. Production impact: Drove ~6× capacity by shipping GenAI + explainability flows (LangGraph + LLMs); delivered an LLM summary dashboard (Kafka → Salesforce) and a Text-to-Visual API used in Slack/Teams—turning research into daily tools.
 2. Safety & evaluations: First-author study on perturbation risk (*Can Typos Cause Harm?*) introducing a safety flip-rate metric; released a perturbation-aware eval pipeline to harden models pre-launch.
 3. Observability at scale: Rolled out a multi-cloud model-monitoring platform (lifecycle tracking, alerting) adopted by 10+ clients; previously owned PySpark/Databricks data/ML pipelines with measurable lift.
-4. Inference optimization / edge: Cut mobile compute cost ~30\% and reduced survey error ~22% with a lightweight SSD/MobileNetV2 engine; optimized API/DB paths to meet strict latency targets.
+4. Inference optimization / edge: Cut mobile compute cost ~30% and reduced survey error ~22% with a lightweight SSD/MobileNetV2 engine; optimized API/DB paths to meet strict latency targets.
 5. MLOps & feedback loops: AWS (Lambda, API Gateway, CloudWatch), Kafka, Docker/Kubernetes, CI/CD, experiment tracking; telemetry-driven A/Bs and post-training loops so models improve with real user signals.
 
 ### How I’ll add value—either track
