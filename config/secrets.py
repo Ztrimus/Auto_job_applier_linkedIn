@@ -15,7 +15,7 @@ version:    24.12.3.10.30
 ###################################################### CONFIGURE YOUR TOOLS HERE ######################################################
 
 import os
-from load_dotenv import load_dotenv
+from dotenv import load_dotenv
 load_dotenv()
 
 
@@ -65,7 +65,7 @@ If you are using ollama, you MUST put "not-needed".
 """
 
 # Your LLM model name or other AI model name
-llm_model = "gpt-4o"  # Examples: "gpt-3.5-turbo", "gpt-4o", "llama-3.2-3b-instruct", "qwen3:latest", "gemini-pro", "gemini-1.5-flash", "gemini-2.5-flash", "deepseek-llm:latest"
+llm_model = "gpt-5-mini"  # Examples: "gpt-3.5-turbo", "gpt-4o", "llama-3.2-3b-instruct", "qwen3:latest", "gemini-pro", "gemini-1.5-flash", "gemini-2.5-flash", "deepseek-llm:latest"
 
 llm_spec = "openai"  # Examples: "openai", "openai-like", "openai-like-github", "openai-like-mistral"
 """

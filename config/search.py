@@ -17,12 +17,12 @@ version:    24.12.29.12.30
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
 search_terms = [
-    "Machine Learning Engineer",
     "AI Research Engineer",
-    "Research Scientist (AI / ML)",
+    "Machine Learning Engineer",
     "AI Research Scientist",
-    "Applied AI Engineer",
     "AI Engineer",
+    "Research Scientist (AI / ML)",
+    "Applied AI Engineer",
     "Deep Learning Engineer",
     "AI Safety Engineer",
     "Generative AI Engineer",
@@ -37,7 +37,7 @@ search_location = "United States"  # Some valid examples: "", "United States", "
 switch_number = 30  # Only numbers greater than 0... Don't put in quotes
 
 # Do you want to randomize the search order for search_terms?
-randomize_search_order = True  # True of False, Note: True or False are case-sensitive
+randomize_search_order = False  # True of False, Note: True or False are case-sensitive
 
 
 # >>>>>>>>>>> Job Search Filters <<<<<<<<<<<
